@@ -1,3 +1,13 @@
+# Time Complexity : O(NK)
+# Space Complexity : O(NK)
+# Did this code successfully run on Leetcode : Yes
+# Any problem you faced while coding this : No
+
+
+# Your code here along with comments explaining your approach in three sentences only
+#I have used prime numbers to calculate the product since the prime product will be unique.
+#Then map it to same product in hashmap so it will elimiate sorting.
+
 class Solution:
     def groupAnagrams(self, strs:List[str]) -> List[List[str]]:
         if not strs:
